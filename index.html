@@ -25,11 +25,21 @@
       <li>Music</li>
     </ol>
  <!-- contact me form -->
-  <p>Contact me here:</p>
+  <h3>Contact me here:</h3>
   <form action="/action_page.php">
-    First name: <input type="text" name="fname"><br>
-    Last name: <input type="text" name="lname"><br>
-    <input type="submit" value="Submit">
+    First name: <input type="text" placeholder="John" required name="fname"><br>
+    Last name: <input type="text" placeholder="Doe" required name="lname"><br>
+    E-mail: <input type="text" placeholder="fake@mail.com" required name="e-mail"><br>
+    Phone: <input type="text" placeholder="123-456-789" required name="phone"><br>
+    Preferred Contact:
+    <label for="email">
+      <input id="email" type="radio" name="preferred-contact">email
+  </label>
+  <label for="phone">
+    <input id="phone" type="radio" name="preferred-contact">phone
+</label>
+  <br>
+    <button type="submit">Submit</button>
   </form>
 
   <!-- bottom half -->
