@@ -2,18 +2,18 @@
 <html>
 
 <head>
-  <title>MyWebsite</title>
+  <title>Jeff Feldman</title>
 </head>
 
+<body>
 <main>
  <!-- about me -->
+ <div id="about-me">
    <h1>Jeff Feldman - Developer</h1>
-    <p>Hello World! My name is Jeff Feldman. I am a software developer with a
-    passion for sports, gambling, and tech. Check out my website!</p>
+    <p>Hello World! My name is Jeff Feldman. I am a software developer with a passion for sports, gambling, and tech. Check out my website!</p>
     <p>Currently I work at <a href="https://www.fastmodelsports.com"
-      target="_blank">FastModelSports</a> making
-    software for basketball coaches, players & athletic departments.</p>
-    <br>
+      target="_blank">FastModel Sports</a> making software for basketball coaches, players & athletic departments.</p>
+    <br />
   <h2>Skills</h2>
     <ul>
       <li>HTML</li>
@@ -24,33 +24,55 @@
       <li>Basketball</li>
       <li>Music</li>
     </ol>
+  </div>
  <!-- contact me form -->
+ <div id=contact-form>
   <h3>Contact me here:</h3>
   <form action="/action_page.php">
-    First name: <input type="text" placeholder="John" required name="fname"><br>
-    Last name: <input type="text" placeholder="Doe" required name="lname"><br>
-    E-mail: <input type="text" placeholder="fake@mail.com" required name="e-mail"><br>
-    Phone: <input type="text" placeholder="123-456-789" required name="phone"><br>
+    First name: <input type="text" placeholder="John" required name="fname"><br />
+    Last name: <input type="text" placeholder="Doe" required name="lname"><br />
+    E-mail: <input type="text" placeholder="fake@mail.com" required name="e-mail"><br />
+    Phone: <input type="text" placeholder="123-456-789" required name="phone"><br />
     Preferred Contact:
     <label for="email">
-      <input id="email" type="radio" name="preferred-contact">email
+      <input id="email" type="radio" name="preferred-contact" value="email" checked>Email
   </label>
   <label for="phone">
-    <input id="phone" type="radio" name="preferred-contact">phone
+    <input id="phone" type="radio" name="preferred-contact" value="phone">Phone
 </label>
-  <br>
+
+  <br />
+
+  Favorite Album:
+  <label for="The Low End Theory">
+    <input id="The Low End Theory" type="checkbox" name="album" value="The Low End Theory" checked>
+      The Low End Theory
+</label>
+
+<label for="The Love Movement">
+  <input id="The Love Movement" type="checkbox" name="album" value="The Love Movement">
+    The Love Movement
+</label>
+
+<br />
+
     <button type="submit">Submit</button>
   </form>
 
+  <br />
+</div>
   <!-- bottom half -->
+  <div id=bottom>
     <a href="#footer">Jump to Bottom</a>
-    <br>
+    <br />
     <a target="_blank" href="https://github.com/jbfeld"><img
-      src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?w=1390&crop=1" alt="code"></a>
+      src="./codeimage.jpeg" alt="code"></a>
   </a>
 
 
 </main>
+</div>
 <footer id="footer">Copyright info</footer>
 
+</body>
 </html>
