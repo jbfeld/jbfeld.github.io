@@ -9,7 +9,7 @@
     <div id="contact-form">
       <h1>Contact Us:</h1>
       <form action="/action_page.php" method="get">
-        First Name:
+        <label for="fname">First Name:</label>
         <input
           type="text"
           placeholder="John"
@@ -17,7 +17,7 @@
           name="fname"
           id="fname"
         /><br />
-        Last Name:
+        <label for="lname">Last Name:</label>
         <input
           type="text"
           placeholder="Doe"
@@ -25,38 +25,40 @@
           name="lname"
           id="lname"
         /><br />
-        E-mail:
+        <label for="e-mail">Email:</label>
         <input
           type="email"
           placeholder="fake@mail.com"
           required
           name="e-mail"
         /><br />
-        Phone:
+        <label for="phone">Phone:</label>
         <input
           type="phone"
           placeholder="123-456-7890"
           required
           name="phone"
         /><br />
-        Preferred Contact:
-        <label for="email">
-          <input
-            id="email"
-            type="radio"
-            name="preferred-contact"
-            value="email"
-            checked
-          />Email
-        </label>
-        <label for="phone">
-          <input
-            id="phone"
-            type="radio"
-            name="preferred-contact"
-            value="phone"
-          />Phone
-        </label>
+        <fieldset>
+          <legend>Preferred Contact:</legend>
+          <label for="email">
+            <input
+              id="email"
+              type="radio"
+              name="preferred-contact"
+              value="email"
+              checked
+            />Email
+          </label>
+          <label for="phone">
+            <input
+              id="phone"
+              type="radio"
+              name="preferred-contact"
+              value="phone"
+            />Phone
+          </label>
+        </fieldset>
         <br />
         Favorite Album:
         <label for="The Low End Theory">

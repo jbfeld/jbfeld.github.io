@@ -4,116 +4,38 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jeff Feldman</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
 
   <body>
-    <!-- intro -->
-    <div id="intro">
-      <img src="./images/basketball1.jpeg" alt="hoops" />
-      <h1>Jeff Feldman - Developer</h1>
-      <p>
-        Hello World! My name is Jeff Feldman. I am a software developer with a
-        passion for sports, gambling, and tech. Check out my website!
-      </p>
-      <p>
-        Currently I work at
-        <a href="https://www.fastmodelsports.com" target="_blank"
-          >FastModel Sports</a
-        >
-        making software for basketball coaches, players & athletic departments.
-      </p>
+    <!-- navigation menu -->
+    <ul>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Projects</a>
+        <div class="dropdown-content">
+          <a href="#fastscout">FastScout</a>
+          <a href="#">FastAccess</a>
+          <a href="#">FastRecruit</a>
+          <li><a href="#home">Resume</a></li>
+          <li><a href="#news">Github</a></li>
+          <li><a href="#news">Contact</a></li>
+        </div>
+      </li>
+    </ul>
+    <div class="home-container">
+      <div class="about-container">
+        <p>
+          what's uuup! welcome to my website! I'm going to try to use this to
+          highlight my skills, projects, and use it as a general landing page
+          for my programming journey!
+        </p>
+      </div>
+      <div class="separator"></div>
+      <div class="project-container" id="fastscout">
+        <div class="project-photo">
+          <img src="./images/FastScout4.png" alt="website" />
+        </div>
+      </div>
     </div>
-    <!-- Navigation -->
-    <div id="main-nav">
-      <h2>Contents</h2>
-      <ul>
-        <li><a href="practice.html" target="_blank">Practice</a></li>
-        <li><a href="about.html" target="_blank">About</a></li>
-        <li><a href="contact.html" target="_blank">Contact</a></li>
-        <li>
-          <a href="https://www.github.com/jbfeld" target="_blank">Github</a>
-        </li>
-        <li><a href="#projects">Projects</a></li>
-        <ul>
-          <li><a href="#fastscout">FastScout</a></li>
-          <li><a href="#fastaccess">FastAccess</a></li>
-          <li><a href="#fastrecruit">FastRecruit</a></li>
-        </ul>
-      </ul>
-      <br />
-    </div>
-
-    <div id="projects">
-      <h2>Projects</h2>
-      <!-- Project 1 - FastScout -->
-
-      <h3 id="fastscout">FastScout</h3>
-      <p>
-        FastScout is an application that allows coaches to create scouting
-        reports for upcoming games and distribute them to fellow players and
-        coaches on their staff.
-      </p>
-      <p>Web:</p>
-      <img src="./images/FastScout1.png" alt="FastScout" width="300" />
-      <br />
-      <p>Mobile:</p>
-      <img src="./images/FastScout2.jpeg" alt="FastScout" width="200" />
-      <br />
-      <a href="https://fastscout.fastmodelsports.com" target="_blank"
-        >Link to FastScout</a
-      >
-      <br />
-      <br />
-
-      <!-- Project 2 - FastAccess -->
-
-      <h3 id="fastaccess">FastAccess</h3>
-      <p>
-        FastAccess is an application for athletic departments to send
-        personalized messages to alumni and donors.
-      </p>
-      <p>Web:</p>
-      <img src="./images/FastAccess1.png" alt="FastAccess" width="300" />
-      <br />
-      <p>Mobile:</p>
-      <img src="./images/FastAccess2.jpeg" alt="FastAccess" width="200" />
-      <br />
-      <a href="https://fastaccess.fastmodelsports.com" target="_blank"
-        >Link to FastAccess</a
-      >
-      <br />
-      <br />
-
-      <!-- Project 3 - FastRecruit -->
-
-      <h3 id="fastrecruit">FastRecruit</h3>
-      <p>
-        FastRecruit is an application to help college basketball coaches manage
-        the recruiting of High School players.
-      </p>
-      <p>Web:</p>
-      <img src="./images/FastRecruit1.png" alt="FastRecruit" width="300" />
-      <br />
-      <p>Mobile:</p>
-      <img src="./images/FastRecruit2.jpeg" alt="FastRecruit" width="200" />
-      <br />
-      <a href="https://fastrecruit.fastmodelsports.com" target="_blank"
-        >Link to FastRecruit</a
-      >
-      <br />
-      <br />
-    </div>
-
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <a href="#intro">Back to Top</a>
-    <br />
-    <br />
-    <footer id="footer">copyright&copy; 2020</footer>
   </body>
 </html>
