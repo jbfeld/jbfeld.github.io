@@ -67,12 +67,36 @@ p {
 }
 .project-container {
   height: 600px;
+  position: relative;
 }
 .separator {
   height: 5px;
   background: white;
 }
-.project-photo {
-  margin-top: 80px;
+.project-photo1 {
+  margin-top: 70px;
   margin-left: 20px;
+}
+.project-photo2 {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.photo-shadow {
+  box-shadow: -5px 9px 52px -19px #71d6af;
+}
+.project-text1 {
+  position: absolute;
+  float: left;
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -190px;
+  margin-bottom: 400px;
+}
+.project-text1 p {
+  position: absolute;
+  border: 1px solid red;
+  color: blue;
 }
